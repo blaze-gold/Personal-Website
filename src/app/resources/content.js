@@ -1,19 +1,18 @@
-import { InlineCode } from "@/once-ui/components";
 
 const person = {
-  firstName: "Selene",
-  lastName: "Yu",
+  firstName: "Shawnee",
+  lastName: "Amos",
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
-  role: "Design Engineer",
+  role: "Full Stack Engineer",
   avatar: "/images/avatar.jpg",
-  location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
+  location: "America/Los_Angeles", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  languages: ["English"], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter = {
-  display: true,
+  display: false,
   title: <>Subscribe to {person.firstName}'s Newsletter</>,
   description: (
     <>
@@ -27,36 +26,34 @@ const social = [
   // Links are automatically displayed.
   // Import new icons in /once-ui/icons.ts
   {
-    name: "GitHub",
-    icon: "github",
-    link: "https://github.com/once-ui-system/nextjs-starter",
-  },
-  {
-    name: "LinkedIn",
-    icon: "linkedin",
-    link: "https://www.linkedin.com/company/once-ui/",
-  },
-  {
-    name: "X",
-    icon: "x",
-    link: "",
-  },
-  {
-    name: "Email",
+    name: "shawneeamos@gmail.com",
     icon: "email",
-    link: "mailto:example@gmail.com",
+    link: "mailto:shawneeamos@gmail.com",
   },
+  {
+    name: "https://github.com/jusdy",
+    icon: "github",
+    link: "https://github.com/jusdy",
+  },
+  {
+    name: "+1 (541)-918 3871",
+    icon: "clipboard",
+    link: "tele:+1 (541)-918 3871"
+  },
+ 
+  
+  
 ];
 
 const home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Design engineer and builder</>,
+  headline: <>Full Stack Engineer and Web3 Developer</>,
   subline: (
     <>
-      I'm Selene, a design engineer at <InlineCode>FLY</InlineCode>, where I craft intuitive
-      <br /> user experiences. After hours, I build my own projects.
+      I'm Shawnee Amos, a full-stack engineer with a focus on creating user-friendly experiences and building solutions from front-end to back-end. I also specialize in web3 technologies and work on personal projects to keep improving my skills.
+      
     </>
   ),
 };
@@ -81,9 +78,9 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+        Shawnee Amos is a full-stack engineer and web3 developer based in Albany, OR. 
+        With a keen interest in solving complex problems, Shawnee specializes in crafting seamless and efficient web applications. 
+        Their expertise bridges the gap between web2 and web3 technologies, delivering innovative solutions that combine functionality with a user-centric design approach.
       </>
     ),
   },
@@ -92,44 +89,132 @@ const about = {
     title: "Work Experience",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        company: "Steady Platform",
+        timeframe: "07/2023 - 01/2025",
+        role: "Lead Full Stack Developer",
         achievements: [
           <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
+            Led front-end development efforts to improve accessibility and usability, migrating 50+ Next.js components from SCSS to
+            Chakra UI to align with ADA compliance standards.
           </>,
           <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
+            Developed an MVP fundraising CRM using Next.js, TypeScript, and Redux Toolkit, optimizing performance with Dockerized
+            microservices, leading to a 30% improvement in load times.
+          </>,
+          <>
+            Enhanced UX by adapting 20+ Figma wireframes, collaborating with clients to align designs with business objectives,
+            resulting in an increase in user engagement.
+          </>,
+          <>
+            Integrated a Django-based Python back-end for API management, enhancing data flow efficiency and reducing API response
+            times by 35%.
           </>,
         ],
         images: [
           // optional: leave the array empty if you don't want to display images
+          
+        ],
+      },
+      {
+        company: "Meltwater",
+        timeframe: "03/2020 – 06/2023",
+        role: "Senior Software Engineer",
+        achievements: [
+          <>
+            Improved the performance and usability of B2B and B2C media intelligence and social analytics software, reducing load
+            times by 30% and increasing user engagement.
+          </>,
+          <>
+            Enhanced a MERN-based eCommerce system, optimizing the checkout process by 40%, resulting in a 15% higher conversion
+            rate and contributing to $2M+ in annual revenue.
+          </>,
+          <>
+            Optimized web applications with Tailwind CSS, achieving full mobile responsiveness and improving user satisfaction scores
+            by 35%.
+          </>,
+          <>
+            Developed a scalable data storage system using React, Node.js, and Express.js, optimizing retrieval times by 50% and
+            improving efficiency for 500,000+ active users.
+          </>,
+        ],
+        images: [
           {
-            src: "/images/projects/project-01/cover-01.jpg",
-            alt: "Once UI Project",
+            src: "/images/projects/project-01/cover-01.png",
+            alt: "Meltwater",
             width: 16,
             height: 9,
           },
         ],
       },
       {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
+        company: "Hodldevs",
+        timeframe: "04/2018 – 02/2020",
+        role: "Front-End Developer",
         achievements: [
           <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
+            Designed and maintained a blockchain-based real estate platform using Next.js and TypeScript, increasing site speed by
+            40% and boosting user engagement.
           </>,
           <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
+            Optimized website performance, reducing loading speed by 35%, which led to a 20% decrease in bounce rates and improved
+            overall user retention.
+          </>,
+          <>
+            Implemented cryptocurrency payment gateways with smart contracts, reducing transaction processing time by 50% through
+            optimized blockchain interactions.
+          </>,
+          <>
+            Collaborated with UI/UX designers and back-end teams to develop high-performance, interactive pages, improving user
+            satisfaction scores by 30% based on customer feedback.
+          </>,
+          <>
+            Developed blockchain-based authentication solutions, improving security and decentralization, reducing unauthorized
+            access by 60%.
           </>,
         ],
-        images: [],
+        images: [
+          {
+            src: "/images/projects/project-01/image-04.png",
+            alt: "Meltwater",
+            width: 16,
+            height: 9,
+          },
+        ],
+      },
+      {
+        company: "Freelance / Contract Work",
+        timeframe: "01/2017 – 03/2018",
+        role: "Full-Stack Developer ",
+        achievements: [
+          <>
+            Developed and deployed 10+ scalable web applications with React, Node.js, and MongoDB, improving system efficiency and
+            supporting 100,000+ users.
+          </>,
+          <>
+            Designed and implemented 15+ RESTful APIs with Node.js and PostgreSQL, reducing data retrieval time by 30% and
+            improving backend performance.
+          </>,
+          <>
+            Reduced website load times by 40%, leading to a 25% increase in user retention, through lazy loading, code splitting, and
+            image optimization.
+          </>,
+          <>
+            Managed cloud deployment for 20+ applications, containerizing services with Docker and deploying on AWS and Azure,
+            achieving 99.9% uptime and enhanced scalability.
+          </>,
+          <>
+            Utilized Git/GitHub for version control, streamlining collaboration across cross-functional teams of 10+ developers, reducing
+            code conflicts by 50%.
+          </>,
+        ],
+        images: [
+          {
+            src: "/images/projects/project-01/image-05.png",
+            alt: "Meltwater",
+            width: 16,
+            height: 9,
+          },
+        ],
       },
     ],
   },
@@ -138,17 +223,13 @@ const about = {
     title: "Studies",
     institutions: [
       {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
-      },
-      {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
+        name: "The College of Saint Rose",
+        description: <>Bachelor’s Degree in Computer Science</>,
       },
     ],
   },
   technical: {
-    display: true, // set to false to hide this section
+    display: false, // set to false to hide this section
     title: "Technical skills",
     skills: [
       {
@@ -210,12 +291,12 @@ const gallery = {
   // Images from https://pexels.com
   images: [
     {
-      src: "/images/gallery/img-01.jpg",
+      src: "/images/gallery/img-01.jpeg",
       alt: "image",
       orientation: "vertical",
     },
     {
-      src: "/images/gallery/img-02.jpg",
+      src: "/images/gallery/img-02.jpeg",
       alt: "image",
       orientation: "horizontal",
     },
@@ -230,27 +311,27 @@ const gallery = {
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/img-05.jpg",
+      src: "/images/gallery/img-05.jpeg",
       alt: "image",
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/img-06.jpg",
+      src: "/images/gallery/img-06.jpeg",
       alt: "image",
       orientation: "vertical",
     },
     {
-      src: "/images/gallery/img-07.jpg",
+      src: "/images/gallery/img-07.jpeg",
       alt: "image",
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/img-08.jpg",
+      src: "/images/gallery/img-08.jpeg",
       alt: "image",
       orientation: "vertical",
     },
     {
-      src: "/images/gallery/img-09.jpg",
+      src: "/images/gallery/img-09.jpeg",
       alt: "image",
       orientation: "horizontal",
     },
@@ -260,22 +341,22 @@ const gallery = {
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/img-11.jpg",
+      src: "/images/gallery/img-11.jpeg",
       alt: "image",
       orientation: "vertical",
     },
     {
-      src: "/images/gallery/img-12.jpg",
+      src: "/images/gallery/img-12.jpeg",
       alt: "image",
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/img-13.jpg",
+      src: "/images/gallery/img-13.jpeg",
       alt: "image",
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/img-14.jpg",
+      src: "/images/gallery/img-14.jpeg",
       alt: "image",
       orientation: "horizontal",
     },
