@@ -32,10 +32,10 @@ export function generateMetadata({ params: { slug } }: WorkParams) {
     publishedAt: publishedTime,
     summary: description,
     images,
-    image,
+    // image,
     team,
   } = post.metadata;
-  let ogImage = image ? `https://${baseURL}${image}` : `https://${baseURL}/og?title=${title}`;
+  // let ogImage = image ? `https://${baseURL}${image}` : `https://${baseURL}/og?title=${title}`;
 
   return {
     title,
@@ -48,17 +48,17 @@ export function generateMetadata({ params: { slug } }: WorkParams) {
       type: "article",
       publishedTime,
       url: `https://${baseURL}/work/${post.slug}`,
-      images: [
-        {
-          url: ogImage,
-        },
-      ],
+      // images: [
+      //   {
+      //     url: ogImage,
+      //   },
+      // ],
     },
     twitter: {
       card: "summary_large_image",
       title,
       description,
-      images: [ogImage],
+      // images: [ogImage],
     },
   };
 }
