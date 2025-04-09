@@ -70,7 +70,7 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Haris Amir is a full-stack engineer and web3 developer based in Albany, OR. 
+        Haris Amir is a full-stack engineer and web3 developer based in Singapore. 
         With a keen interest in solving complex problems, Haris specializes in crafting seamless and efficient web applications. 
         Their expertise bridges the gap between web2 and web3 technologies, delivering innovative solutions that combine functionality with a user-centric design approach.
       </>
