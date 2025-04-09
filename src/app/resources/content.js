@@ -1,13 +1,13 @@
 
 const person = {
-  firstName: "Shawnee",
-  lastName: "Amos",
+  firstName: "Haris",
+  lastName: "Amir",
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
   role: "Full Stack Engineer",
   avatar: "/images/avatar.jpg",
-  location: "America/Los_Angeles", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  location: "Asia/Singapore", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
   languages: ["English"], // optional: Leave the array empty if you don't want to display languages
 };
 
@@ -26,23 +26,15 @@ const social = [
   // Links are automatically displayed.
   // Import new icons in /once-ui/icons.ts
   {
-    name: "shawneeamos@gmail.com",
+    name: "harisamir97120@gmail.com",
     icon: "email",
-    link: "mailto:shawneeamos@gmail.com",
+    link: "mailto:harisamir97120@gmail.com",
   },
   {
     name: "https://github.com/jusdy",
     icon: "github",
     link: "https://github.com/jusdy",
   },
-  {
-    name: "+1 (541)-918 3871",
-    icon: "clipboard",
-    link: "tele:+1 (541)-918 3871"
-  },
- 
-  
-  
 ];
 
 const home = {
@@ -52,7 +44,7 @@ const home = {
   headline: <>Full Stack Engineer and Web3 Developer</>,
   subline: (
     <>
-      I'm Shawnee Amos, a full-stack engineer with a focus on creating user-friendly experiences and building solutions from front-end to back-end. I also specialize in web3 technologies and work on personal projects to keep improving my skills.
+      I'm Haris Amir, a full-stack engineer with a focus on creating user-friendly experiences and building solutions from front-end to back-end. I also specialize in web3 technologies and work on personal projects to keep improving my skills.
       
     </>
   ),
@@ -78,8 +70,8 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Shawnee Amos is a full-stack engineer and web3 developer based in Albany, OR. 
-        With a keen interest in solving complex problems, Shawnee specializes in crafting seamless and efficient web applications. 
+        Haris Amir is a full-stack engineer and web3 developer based in Singapore. 
+        With a keen interest in solving complex problems, Haris specializes in crafting seamless and efficient web applications. 
         Their expertise bridges the gap between web2 and web3 technologies, delivering innovative solutions that combine functionality with a user-centric design approach.
       </>
     ),
@@ -223,7 +215,7 @@ const about = {
     title: "Studies",
     institutions: [
       {
-        name: "The College of Saint Rose",
+        name: "Informatics Academy",
         description: <>Bachelor’s Degree in Computer Science</>,
       },
     ],
