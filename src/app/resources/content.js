@@ -7,7 +7,7 @@ const person = {
   },
   role: "Full Stack Engineer",
   avatar: "/images/avatar.jpg",
-  location: "America/Los_Angeles", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  location: "Asia/Singapore", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
   languages: ["English"], // optional: Leave the array empty if you don't want to display languages
 };
 
@@ -215,7 +215,7 @@ const about = {
     title: "Studies",
     institutions: [
       {
-        name: "The College of Saint Rose",
+        name: "Informatics Academy",
         description: <>Bachelor’s Degree in Computer Science</>,
       },
     ],
