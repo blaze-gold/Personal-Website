@@ -1,7 +1,7 @@
 
 const person = {
-  firstName: "Haris",
-  lastName: "Amir",
+  firstName: "Benjamin",
+  lastName: "Tan",
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
@@ -26,14 +26,14 @@ const social = [
   // Links are automatically displayed.
   // Import new icons in /once-ui/icons.ts
   {
-    name: "harisamir97120@gmail.com",
+    name: "nickpassion816@gmail.com",
     icon: "email",
-    link: "mailto:harisamir97120@gmail.com",
+    link: "mailto:nickpassion816@gmail.com",
   },
   {
-    name: "https://github.com/jusdy",
+    name: "https://github.com/bio1oo1",
     icon: "github",
-    link: "https://github.com/jusdy",
+    link: "https://github.com/bio1oo1",
   },
 ];
 
@@ -44,7 +44,7 @@ const home = {
   headline: <>Full Stack Engineer and Web3 Developer</>,
   subline: (
     <>
-      I'm Haris Amir, a full-stack engineer with a focus on creating user-friendly experiences and building solutions from front-end to back-end. I also specialize in web3 technologies and work on personal projects to keep improving my skills.
+      I'm Benjamin, a full-stack engineer with a focus on creating user-friendly experiences and building solutions from front-end to back-end. I also specialize in web3 technologies and work on personal projects to keep improving my skills.
       
     </>
   ),
@@ -70,8 +70,8 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Haris Amir is a full-stack engineer and web3 developer based in Albany, OR. 
-        With a keen interest in solving complex problems, Haris specializes in crafting seamless and efficient web applications. 
+        Benjamin is a full-stack engineer and web3 developer based in Albany, OR. 
+        With a keen interest in solving complex problems, Benjamin specializes in crafting seamless and efficient web applications. 
         Their expertise bridges the gap between web2 and web3 technologies, delivering innovative solutions that combine functionality with a user-centric design approach.
       </>
     ),
